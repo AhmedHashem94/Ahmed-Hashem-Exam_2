@@ -24,7 +24,7 @@ $(document).ready(function() {
       // assigning value of input to blank after we enter
       $(this).val("");
       // append method helps us to concat value of input and creates new li with span
-      $("ul").append(
+      $(".todolist ul").append(
         "<li><span><i class='fa fa-trash'></i></span> " + inputValue + " </li>"
       );
     }
